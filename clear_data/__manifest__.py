@@ -6,10 +6,7 @@
     'sequence': 1,
     'summary': """A powerful testing tool.Easily clear any odoo object data what you want. """,
     'website': 'www.kreatifsolution.com',
-    'version': '1.0',   
     'description': """Business Testing Data Clear. You can define default model group list by yourself to help your work. """,
-    'license': 'LGPL-3',
-    'price': '0',
 
 
     # any module necessary for this one to work correctly
@@ -17,7 +14,7 @@
 
     # always loaded
     'data': [
-        'data/clear_data.xml',
+        # 'data/clear_data.xml',
         'security/ir.model.access.csv',
         'views/clear_data_views.xml',
     ],
